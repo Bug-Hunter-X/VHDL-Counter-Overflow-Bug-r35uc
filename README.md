@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in VHDL: counter overflow. The `buggy_counter.vhdl` file contains a counter with a limited range (0 to 15). If the counter exceeds 15, it will wrap around, potentially causing unexpected behavior in a larger design.  The `fixed_counter.vhdl` file shows a corrected version with proper overflow handling.
